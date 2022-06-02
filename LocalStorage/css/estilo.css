@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(12, 80, 207);
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+header{
+    background-color: white;
+    color: #000000;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 2px;
+}
+
+nav{
+    background-color: rgb(61, 118, 250);
+    padding: 1px;
+}
+
+li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 0.3rem;
+}
+
+li a:hover{
+    background-color: rgb(210, 210, 210);
+}
+
+ul li{
+    padding: 0.5rem;
+    list-style: none;
+}
+
+nav ul{
+    padding: 0;
+    display: flex;
+}
+
+h3{
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container{
+    margin: auto;
+    margin-top: 2rem;
+    max-width: 60%;
+    background-color: white;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.container h3{
+    text-align: center;
+    color: #000000;
+    border-bottom: 2px solid black;
+    padding-bottom: 0.5rem;
+}
+
+.container input{
+    margin-bottom: 0.5rem;
+    border: 2px solid rgb(223, 214, 214);
+    border-radius: 10px;
+    padding: 0.2rem;
+    outline: none;
+}
+
+.container input:hover{
+    background-color: rgb(240, 236, 231);
+}
+
+.container button{
+    background-color: #212022;
+    color: white;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: black;
+}
+
+footer{
+    margin-top: 2rem;
+    border-top: 2px solid white;
+}
+
+th{
+    background-color: white;
+    border-radius: 15px;
+    color: #fff;
+    padding: 1rem;
+}
+
+td{
+    border: 2px solid #312a48;
+    border-radius: 15px;
+    padding: 0.5rem;
+    text-align:center;
+}
